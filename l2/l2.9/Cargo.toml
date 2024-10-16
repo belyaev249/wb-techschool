@@ -1,0 +1,10 @@
+[package]
+name = "_"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.19", features = ["derive"]}
+tokio = { version = "1", features = ["full"] }
+reqwest = "0.12.8"
+scraper = "0.20.0"
